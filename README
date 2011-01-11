@@ -1,0 +1,22 @@
+mrcc
+A Distributed C Compiler System on MapReduce
+
+Hompage: http://fclose.com/p/mrcc/
+
+*Introduction*
+
+mrcc is an open source compilation system that uses MapReduce to distribute C code compilation across the servers in the cloud computing platform. mrcc is originally built to use Hadoop, but it is easy to transform it to other could computing platform by only changing the interface to the computing platform.
+
+Introduction to the architecture and the implementation of mrcc can be found in the mrcc document:
+http://fclose.com/b/699/mrcc-a-c-compiler-system-on-mapreduce/
+
+*Source code*
+
+Source code of mrcc can be downloaded from http://fclose.com/p/mrcc/.
+
+A simple installation guide can be found under /docs/install
+
+*Author*
+
+Zhiqiang Ma. http://www.cse.ust.hk/~zma/
+
