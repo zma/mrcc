@@ -1,0 +1,7 @@
+#!/bin/bash
+
+MRCC_LOG=./mrcc.log
+MRCC_VERBOSE=1
+export MRCC_LOG
+export MRCC_VERBOSE
+

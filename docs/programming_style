@@ -1,0 +1,18 @@
+The C programming styles this project follows:
+
+1. For each source file (*.c), there is a header file (*.h) that have the same name with it as it's interface.
+
+2. The header file starts with
+  #ifndef _HEADER_NAME_H
+  #  define  _HEADER_NAME_H
+ 
+  And end with:
+  #endif // _HEADER_NAME_H
+
+3. #include is only be used in source file usually.  ONLY when it is really necessary, #include can be used in header file.
+
+4. There is NO defination in header file. 
+
+5. Global variable defined in source file that is visible outside the module is declared as extern variable in the relevant header file. Global variable is used only when it is really necessary.
+
+
