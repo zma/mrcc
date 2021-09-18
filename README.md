@@ -1,6 +1,6 @@
 # mrcc - A Distributed C Compiler System on MapReduce #
 
-** Notes: this tool was written in around year 2009 to 2010. It may need significant modifications to work with latest Hadoop and gcc compilers. /Eric **
+*Notes: this tool was written in around year 2009 to 2010. It may need significant modifications to work with latest Hadoop and gcc compilers. /Eric*
 
 ## Hompage ##
 
